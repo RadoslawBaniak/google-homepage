@@ -2,26 +2,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7.5em;
+    margin-top: 7em;
 }
 .container form {
     margin-top: 2em;
 }
 #search-bar {
-    height: 44px;
+    height: 43px;
     border-radius: 24px;
     box-shadow: none;
     margin: 0 auto;
     border: 1px solid #dfe1e5;
-    width: 482px;
+    width: 584px;
     outline: none;
     font-size: 16px;
     background-image: url(https://icon-library.net/images/google-search-magnifying-glass-icon/google-search-magnifying-glass-icon-5.jpg);
     background-repeat: no-repeat;
     background-position: center left 15px;
-    background-size: 3.5%;
-    padding-left: 40px;
-    
+    background-size: 3.1%;
+    padding-left: 45px;
+    -webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+#search-bar:hover {
+    box-shadow: 0 0 6px rgba(33,33,33,.2);
 }
 .topnav {
     font-family: arial,sans-serif;
