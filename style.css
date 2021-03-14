@@ -2,5 +2,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 8em;
+    margin-top: 7.5em;
 }
+.container form {
+    margin-top: 2em;
+}
+#search-bar {
+    height: 44px;
+    border-radius: 24px;
+    box-shadow: none;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    width: 482px;
+    outline: none;
+    font-size: 16px;
+    background-image: url(https://icon-library.net/images/google-search-magnifying-glass-icon/google-search-magnifying-glass-icon-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    background-size: 3.5%;
+    padding-left: 40px;
+    
+}
+.topnav {
+    font-family: arial,sans-serif;
+    position: absolute;
+    right: 100px;
+    top: 20px; 
+}
+.topnav a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px;
+
+}
+
