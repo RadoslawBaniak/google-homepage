@@ -36,8 +36,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .topnav {
     font-family: arial,sans-serif;
     position: absolute;
-    right: 100px;
-    top: 20px; 
+    right: 85px;
+    top: 13px; 
 }
 .topnav a {
     text-decoration: none;
@@ -55,4 +55,51 @@ input[type="search"]::-webkit-search-results-decoration {
     max-width: 14px;
     margin-left: -35px;
     margin-top: 11px;
+}
+
+.topnav #more-apps {
+    position: absolute;
+    height:auto; 
+    max-width: 25px;
+    margin-top: -10px;
+}
+
+.topnav #more-apps:hover {
+    background-color: #d3d3d3;
+    border-radius:60%;
+    box-shadow: 0 0 0 3px #d3d3d3;
+}
+.topnav #r-logo {
+    position: absolute;
+    height:auto; 
+    max-width: 40px;
+    margin-top: -14px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.topnav #r-logo:hover {
+    background-color: #aeaeae;
+    border-radius:60%;
+    box-shadow: 0 0 0 3px #aeaeae;
+}
+.middle button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
