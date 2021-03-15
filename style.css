@@ -21,6 +21,7 @@
     background-position: center left 15px;
     background-size: 3.1%;
     padding-left: 45px;
+    padding-right: 45px;
     -webkit-appearance: none;
 }
 
@@ -102,4 +103,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+.middle button:hover {
+    box-shadow: 0 0 4px rgba(26, 26, 26, 0.2);
 }
