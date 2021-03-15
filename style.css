@@ -107,3 +107,36 @@ input[type="search"]::-webkit-search-results-decoration {
 .middle button:hover {
     box-shadow: 0 0 4px rgba(26, 26, 26, 0.2);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(112, 117, 122);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    border-left: none;
+  }
+  
+  
+  li a:hover {
+    text-decoration: underline;
+  }
